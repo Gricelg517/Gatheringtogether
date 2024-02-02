@@ -1,26 +1,36 @@
 // import React, { useState } from "react";
-import Navbar from "./components/Navbar";
-import './App.css';
 import { BrowserRouter as Router, Route, Routes, } from "react-router-dom";
-import Home from './pages/Home';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+//Import in all CSS and prestyled components
+import './App.css';
+  //Custom components making the general frame
+import Navbar from "./components/Navbar";
+
+//Custome making routes
+import Home from './pages/home/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
-
+import Login from '../pages/Login/login';
+import Register from '../pages/Register/register';
 
 
 function App() {
 return(
   <div className="App">
-    <Router> 
+    <Header /> 
+    <Router>
     <Navbar />
       <div style={{paddingTop:'100px'}}>
         <Routes>
-         
            <Route path="/home" element={<Home />}/>
            <Route path="/about" element={<About />}/>
            <Route path="/contact" element={<Contact />}/>
+           <Route path="/login" element={<Login />}/>
+           <Route path="/register" element={<Register />}/>
         </Routes>
       </div>
+      <Footer />
     </Router>
   </div>
  );
