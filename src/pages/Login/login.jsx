@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import "./login.scss"
 
@@ -30,4 +31,4 @@ const login = () => {
     );
 };
 
-export default login
+export default login;

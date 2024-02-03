@@ -16,6 +16,7 @@ function Navbar() {
             <Link to="/">Home</Link>
             <Link to="/">About</Link>
             <Link to="/">Contact</Link>
+            <Link to="/">Login</Link>
             
       </div>
     </div>
@@ -23,4 +24,4 @@ function Navbar() {
   );
 }
 
-export default Navbar
+export default Navbar;

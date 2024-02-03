@@ -1,18 +1,18 @@
-// import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes, } from "react-router-dom";
+import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Routes, Outlet, createBrowserRouter, } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 //Import in all CSS and prestyled components
 import './App.css';
   //Custom components making the general frame
-import Navbar from "./components/Navbar";
+import Navbar from './components/Navbar';
 
 //Custome making routes
 import Home from './pages/home/Home';
-import About from './pages/About';
+import About from './pages/About/About';
 import Contact from './pages/Contact';
-import Login from '../pages/Login/login';
-import Register from '../pages/Register/register';
+import Login from '../pages/login/login';
+import Register from '../pages/register/register';
 
 
 function App() {
@@ -30,11 +30,12 @@ return(
            <Route path="/register" element={<Register />}/>
         </Routes>
       </div>
+
       <Footer />
     </Router>
   </div>
  );
-}
+};
 
 
 
