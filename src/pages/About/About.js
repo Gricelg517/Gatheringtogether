@@ -1,5 +1,5 @@
 import React from 'react'
-import together from '../assets//together.jpeg';
+import together from '../../assets/together.jpeg';
 import './About.css';
 
 function About() {

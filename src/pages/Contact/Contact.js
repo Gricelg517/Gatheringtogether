@@ -1,5 +1,8 @@
 import React from 'react'
-import rejoyLeft from "../assets/rejoy.jpg";
+import rejoyLeft from "../../assets/rejoyLeft.jpg";
+import"./Contact.css";
+
+
 
 function Contact () {
     return (

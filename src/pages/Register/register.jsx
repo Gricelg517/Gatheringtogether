@@ -1,4 +1,6 @@
+import React from "react";
 import "./register.scss"
+import { Link } from "react-router-dom";
 
 const register = () => {
             return (
@@ -29,6 +31,6 @@ const register = () => {
                    </div>    
               </div>
           );
-      };
+      }
 
-export default register
+export default register;

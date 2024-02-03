@@ -1,4 +1,4 @@
-.register{
+.register {
     height: 100vh;
     background-color: rgb(193, 190, 255); 
     display: flex;
@@ -14,30 +14,30 @@
      min-height: 600px;
      overflow: hidden;
  
- .left{
+ .left {
      flex: 1;
-     background: linear-gradient(rgba(39, 11, 96, 0.5),rgba(39, 11, 96, 0.5)), url("https://www.pexels.com/photo/woman-in-gray-hoodie-beside-woman-in-gray-hoodie-4881619/") center;
- background-size: cover;
- padding: 50px;
- display: flex;
- flex-direction: column;
- gap: 30px;
- color: white;
+     background: linear-gradient(rgba(39, 11, 96, 0.5),rgba(39, 11, 96, 0.5)), 
+     url("https://images.pexels.com/photos/8777888/pexels-photo-8777888.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load") center;
+     background-size: cover;
+     padding: 50px;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     color: white;
  
-     h1{
-       font-size: 100px;
-       line-height: 100px; 
+     h1 {
+       font-size: 200%;
+       line-height: 50px; 
      }
-     
-     p{
- 
+     p {
+    
      }
-            
-     span{
+                 
+     span {
          font-size: 14px;
      }
      
-     button{
+     button {
          width: 50%;
          padding: 10px;
          border: none;

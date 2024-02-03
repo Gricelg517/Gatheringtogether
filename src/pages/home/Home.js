@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
-import BannerImage from "../assets/banner.jpg";
+import BannerImage from "../../assets/banner.jpg"
+
 import "./Home.css";
 import { Container } from "@mui/material";
 
@@ -25,10 +26,17 @@ function Home() {
                 </Container>
                 
                     <p> Prayer is a powerful and effective way to connect with God  </p>   
-                  <Link to="/contact">
-                    <button> More Information</button>
+                  <Link to="/prayer">
+                    <button> Prayer Group</button>
+                   </Link>
+                   <Link to="/wordship">
+                    <button> Wordship Group</button>
+                   </Link>
+                   <Link to="/events">
+                    <button> Events</button>
                    </Link>
                 
+                         
             </div>
         </div>  
     );

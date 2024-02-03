@@ -13,30 +13,28 @@
     min-height: 600px;
     overflow: hidden;
 
-.left{
+.left {
     flex: 1;
-    background: linear-gradient(rgba(39, 11, 96, 0.5),rgba(39, 11, 96, 0.5)), url("https://www.pexels.com/photo/photo-of-people-next-to-each-other-3184308/") center;
-background-size: cover;
-padding: 50px;
-display: flex;
-flex-direction: column;
-gap: 30px;
-color: white;
+    background: linear-gradient(rgba(39, 11, 96, 0.5),rgba(39, 11, 96, 0.5)),
+       url("https://images.pexels.com/photos/9353485/pexels-photo-9353485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
 
-    h1{
-      font-size: 100px;
-      line-height: 100px; 
+    h1 {
+      font-size: 50px;
+      line-height: 50px; 
     }
     
-    p{
-
-    }
-           
-    span{
+              
+    span {
         font-size: 14px;
     }
     
-    button{
+    button {
         width: 50%;
         padding: 10px;
         border: none;
@@ -46,7 +44,7 @@ color: white;
     }
         }
         
-.right{
+.right {
     flex: 1;
     padding: 50px;
     display: flex;
