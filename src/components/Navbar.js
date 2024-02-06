@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 //Import in bootstrap components
-import '../Styles/Navbar.css'
+import '../Styles/Navbar.css';
 
 //Import all assets
 import logo from"../assets/logo2.jpg";

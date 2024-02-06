@@ -1,13 +1,12 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes, Switch, createBrowserRouter } from "react-router-dom";
-import Footer from "./components/Footer";
-
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from './components/Navbar.js';
 import './App.css';
+import Footer from "./components/Footer.js";
 
   //Custom components making the general frame
-import Navbar from './components/Navbar';
 
-//Main pages routes
+//pages routes
 import Home from './pages/home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
@@ -21,14 +20,14 @@ import PrayerGroup from "./pages/PrayerGroup/prayergroup";
 
 
 
-
 function App() {
 return(
   <div className="App">
     
     <Router>
     <Navbar />
-      <div style={{paddingTop:'100px'}}>
+     
+      <div style={{paddingTop:'0px'}}>
         <Routes>
            <Route path="/home" element={<Home />}/>
            <Route path="/about" element={<About />}/>
@@ -38,11 +37,13 @@ return(
 
            <Route path="/events" element={<Events />}/>
            <Route path="/prayergroup" element={<PrayerGroup/>}/>
-           <Route path="/wordshipgroup" element={<WordshipGroup />}/>
+           <Route path="/wordshipgroup" element={<WordshipGroup />}/> 
+                 
         </Routes>
       </div>
-        
-    </Router>
+      <Footer />
+       </Router>
+       
   </div>
  );
 };
