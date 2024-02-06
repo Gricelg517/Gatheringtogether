@@ -15,13 +15,13 @@ function Home() {
                 </Container>
                  <p> Prayer is a powerful and effective way to connect with God  </p>   
                   <Link to="/prayer">
-                    <button> Prayer Group</button>
+                    <button> Prayer Group</button>{' '}
                    </Link>
                    <Link to="/wordship">
-                    <button> Wordship Group</button>
+                    <button> Wordship Group</button>{' '}
                    </Link>
                    <Link to="/events">
-                    <button> Events</button>
+                    <button> Events</button>{' '}
                    </Link>
                 
                          

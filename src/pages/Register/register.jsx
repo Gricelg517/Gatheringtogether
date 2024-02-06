@@ -14,7 +14,7 @@ const register = () => {
                       assumenda consequatur blanditiis ut iure.
                       </p>
                           <span>Don't you have an account?</span>
-                          <Link to="Register"> 
+                          <Link to="Login"> 
                             <button>Login</button>
                             </Link>
                   </div>

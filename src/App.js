@@ -26,8 +26,6 @@ return(
     
     <Router>
     <Navbar />
-     
-      <div style={{paddingTop:'0px'}}>
         <Routes>
            <Route path="/home" element={<Home />}/>
            <Route path="/about" element={<About />}/>
@@ -37,16 +35,14 @@ return(
 
            <Route path="/events" element={<Events />}/>
            <Route path="/prayergroup" element={<PrayerGroup/>}/>
-           <Route path="/wordshipgroup" element={<WordshipGroup />}/> 
-                 
-        </Routes>
-      </div>
+           <Route path="/wordshipgroup" element={<WordshipGroup />}/>                 
+        </Routes>    
       <Footer />
        </Router>
        
   </div>
  );
-};
+}
 
 
 
